@@ -1,8 +1,9 @@
 <?php
 
-class InvalidAmountException extends Exception{}
+require_once("InsufficientFundsException.php");
 
-class InsufficientFundsException extends Exception{}
+require_once("InvalidAmountException.php");
+
 
 class BankAccount{
 
